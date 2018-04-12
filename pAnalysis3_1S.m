@@ -25,7 +25,7 @@ clc;
 % Image is read in and cropped to obtain centre area. This removes area due to
 % vignetting from image capture. Image split converted to HSV colour
 % space.
-before = imread('IMG_0006.CR2');
+before = imread('Example.CR2');
 crop_dim = [1650 850 2000 2000]; %This is the cropping coordinates for the image. Adjust this to suit needs. 
 
 I_cropped =  imcrop(before,crop_dim); %Crop image.
